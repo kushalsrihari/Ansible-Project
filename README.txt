@@ -9,6 +9,8 @@ my_nginx_ansible_project/
 │   ├── common/
 │   │   ├── tasks/
 │   │   │   └── main.yml
+│   │   └── files/
+│   │       └── index.html
 │   └── nginx/
 │       ├── tasks/
 │       │   └── main.yml
