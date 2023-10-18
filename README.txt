@@ -15,3 +15,12 @@ my_nginx_ansible_project/
 │       └── templates/
 │           └── index.html.j2
 └── playbook.yml
+
+
+1. Genrate a Public key on Control_machine using "ssh-keygen" command
+   "ssh-keygen"
+2. copy the ssh key id to target machine 
+  "ssh-copy-id <your_username>@<target_machine>"
+3. create a inventory file a paste the target machine IP Address
+  "[web_servers]
+   target_machine "
