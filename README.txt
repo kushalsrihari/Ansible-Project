@@ -24,3 +24,6 @@ my_nginx_ansible_project/
 3. create a inventory file a paste the target machine IP Address
   "[web_servers]
    target_machine "
+4. to check the connection to target machine 
+   "ansible -i inventories/production/hosts -m ping"
+
