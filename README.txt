@@ -1,24 +1,25 @@
 # ansible
 
-my_nginx_ansible_project/
-├── ansible.cfg
-├── inventories/
-│   └── production/
+ansible
+├── inventories
+│   └── production
 │       └── hosts
-├── roles/
-│   ├── common/
-│   │   ├── tasks/
-│   │   │   └── main.yml
-│   │   └── files/
-│   │       └── index.html
-│   └── nginx/
-│       ├── tasks/
-│       │   └── main.yml
-│       ├── handlers/
-│       │   └── main.yml
-│       └── templates/
-│           └── index.html.j2
-└── playbook.yml
+├── playbook.yml
+└── roles
+    ├── common
+    │   ├── files
+    │   │   └── index.html
+    │   └── tasks
+    │       └── main.yml
+    └── nginx
+        ├── handler
+        │   └── main.yml
+        ├── handlers
+        │   └── main.yml
+        ├── tasks
+        │   └── main.yml
+        └── templates
+            └── nginx.conf.j2
 
 
 1. Genrate a Public key on Control_machine using "ssh-keygen" command
