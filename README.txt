@@ -1,4 +1,5 @@
 # ansible
+
 my_nginx_ansible_project/
 ├── ansible.cfg
 ├── inventories/
