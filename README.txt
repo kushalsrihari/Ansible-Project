@@ -12,6 +12,8 @@ my_nginx_ansible_project/
 │   └── nginx/
 │       ├── tasks/
 │       │   └── main.yml
+│       ├── handlers/
+│       │   └── main.yml
 │       └── templates/
 │           └── index.html.j2
 └── playbook.yml
