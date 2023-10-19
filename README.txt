@@ -38,4 +38,5 @@ ansible
 5. Create roles for NGINX and COMMONS for HTML page
 
 6. Create a Playbook and call ansible-playbook command
+    "ansible-playbook -i inventories/production playbook.yml"
 
